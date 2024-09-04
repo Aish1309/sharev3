@@ -7,6 +7,7 @@ exports["default"] = RootLayout;
 exports.metadata = void 0;
 var _google = require("next/font/google");
 require("./globals.css");
+var _jsxRuntime = require("react/jsx-runtime");
 var inter = (0, _google.Inter)({
   subsets: ["latin"]
 });
@@ -16,9 +17,11 @@ var metadata = exports.metadata = {
 };
 function RootLayout(_ref) {
   var children = _ref.children;
-  return /*#__PURE__*/React.createElement("html", {
-    lang: "en"
-  }, /*#__PURE__*/React.createElement("body", {
-    className: inter.className
-  }, children));
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)("html", {
+    lang: "en",
+    children: /*#__PURE__*/(0, _jsxRuntime.jsx)("body", {
+      className: inter.className,
+      children: children
+    })
+  });
 }
