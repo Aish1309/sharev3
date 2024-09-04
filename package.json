@@ -1,7 +1,7 @@
 {
   "name": "@aish1309/sharev3",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "src/app/layout.js",
   "private": true,
   "scripts": {
     "dev": "next dev",
