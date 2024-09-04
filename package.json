@@ -1,6 +1,6 @@
 {
   "name": "@aish1309/sharev3",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "main": "dist/src/app/page.js",
   "scripts": {
     "dev": "next dev",
