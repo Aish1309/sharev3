@@ -1,12 +1,12 @@
 {
   "name": "@aish1309/sharev3",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "main": "dist/src/app/layout.js",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "lint": "next lint",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.7",
